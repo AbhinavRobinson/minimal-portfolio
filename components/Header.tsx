@@ -13,6 +13,7 @@ import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   const [mounted, setMounted] = useState(false);
+  const { systemTheme, theme, setTheme } = useTheme();
 
   useEffect(() => {
     setMounted(true);
@@ -20,7 +21,6 @@ const Header = () => {
 
   if (!mounted) return null;
 
-  const { systemTheme, theme, setTheme } = useTheme();
   const currentTheme = theme === "system" ? systemTheme : theme;
 
   return (

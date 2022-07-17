@@ -13,19 +13,19 @@ const Projects = () => {
       css: "text-slate-500 border-slate-500 hover:bg-slate-500",
     },
     {
-      title: "Mintable",
+      title: "mintable",
       link: "https://mintable.com",
       css: "text-red-500 border-red-500 hover:bg-red-500",
     },
     {
-      title: "Polygon",
+      title: "polygon",
       link: "https://polygon.technology",
       css: "text-violet-500 border-violet-500 hover:bg-violet-500",
     },
     {
       title: "vanilla",
       link: "https://vanilla.network",
-      css: `text-rose-500 border-rose-500 hover:bg-rose-500`,
+      css: `text-amber-500 border-amber-500 hover:bg-amber-500`,
     },
     {
       title: "myosin",
@@ -33,7 +33,7 @@ const Projects = () => {
       css: "text-sky-500 border-sky-500 hover:bg-sky-500",
     },
     {
-      title: "Biconomy",
+      title: "biconomy",
       link: "https://www.biconomy.com",
       css: "text-fuchsia-500 border-fuchsia-500 hover:bg-fuchsia-500",
     },

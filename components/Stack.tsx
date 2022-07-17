@@ -9,7 +9,7 @@ const Stack = () => {
     "Mongo",
     "Express",
     "NestJS",
-    "GraphQl",
+    "GraphQL",
     "Solidity",
     "Hardhat",
     "HTML",
