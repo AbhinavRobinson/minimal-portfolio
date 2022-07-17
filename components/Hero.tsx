@@ -42,7 +42,7 @@ const Hero = () => {
         />
         <div className="vs gap-1">
           <h1>Abhinav Robinson</h1>
-          <p>Senior Software Developer and Techinal Lead</p>
+          <p>Senior Software Developer and Technical Lead</p>
         </div>
         <ul className="vs items-end flex-grow gap-1 text-gray-500 select-none">
           <li className="hover:text-sky-500 cursor-pointer">
