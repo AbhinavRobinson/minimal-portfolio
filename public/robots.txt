@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.abhinav.one
+
+# Sitemaps
+Sitemap: https://www.abhinav.one/sitemap.xml

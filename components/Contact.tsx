@@ -25,6 +25,7 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
             href="https://linkedin.com/in/abhinavrobinson"
+            aria-label="linkedin"
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
@@ -34,6 +35,7 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/abhinavrobinson/"
+            aria-label="github"
           >
             <FontAwesomeIcon icon={faGithub} />
           </a>
@@ -43,6 +45,7 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
             href="https://dribbble.com/AbhinavR"
+            aria-label="dribbble"
           >
             <FontAwesomeIcon icon={faDribbble} />
           </a>
