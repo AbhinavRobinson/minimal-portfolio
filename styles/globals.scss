@@ -19,3 +19,44 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@layer base {
+  main {
+    @apply bg-white dark:bg-black;
+    @apply min-h-screen min-w-full;
+    @apply pt-16 p-8;
+    @apply flex justify-center items-start;
+  }
+
+  section {
+    @apply bg-zinc-100 dark:bg-zinc-900;
+    @apply max-w-3xl w-full;
+    @apply rounded-xl;
+    @apply p-4 sm:p-8;
+  }
+
+  header {
+    @apply flex flex-row w-full justify-start items-center gap-4 sm:gap-8;
+  }
+
+  h1 {
+    @apply font-serif dark:text-white text-xl sm:text-3xl;
+  }
+
+  p {
+    @apply font-sans text-gray-700 dark:text-gray-500 text-sm sm:text-base;
+  }
+}
+
+@layer components {
+  .vs {
+    @apply flex flex-col justify-start items-start;
+  }
+
+  .hs {
+    @apply flex flex-row justify-center items-start;
+  }
+}
+
+@layer utilities {
+}

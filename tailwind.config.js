@@ -9,7 +9,7 @@ module.exports = {
       'sans': "Lato, sans-serif",
       'serif': "Playfair Display, serif"
     },
-    extend: {},
   },
+  darkMode: "class",
   plugins: [],
 }
