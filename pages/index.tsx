@@ -3,7 +3,7 @@ import Contact from "../components/Contact";
 import Stack from "../components/Stack";
 import Projects from "../components/Projects";
 import { NextSeo } from "next-seo";
-import Header from "../components/header";
+import Hero from "../components/Hero";
 import Head from "next/head";
 
 const Home: NextPage = () => {
@@ -30,7 +30,7 @@ const Home: NextPage = () => {
           site_name: "Portfolio | Abhinav Robinson",
         }}
       />
-      <Header />
+      <Hero />
       <Projects />
       <Stack />
       <Contact />

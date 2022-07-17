@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
-const Header = () => {
+const Hero = () => {
   const [mounted, setMounted] = useState(false);
   const { systemTheme, theme, setTheme } = useTheme();
 
@@ -78,4 +78,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Hero;
