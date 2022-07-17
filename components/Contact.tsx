@@ -6,15 +6,18 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Divider } from "./Divider";
 
-export const Contact = () => {
+export default function Contact() {
   return (
     <>
       <Divider title="Contact" />
       <p className="max-w-3xl w-full">
         You can reach out to me over mail:{" "}
-        <b className="dark:text-white cursor-pointer">
+        <a
+          href="mailto:abhinavrobinson@gmail.com"
+          className="font-bold dark:text-white cursor-pointer"
+        >
           abhinavrobinson@gmail.com
-        </b>
+        </a>
       </p>
       <ul className="hs pt-4 justify-start max-w-3xl w-full gap-4 text-gray-500 select-none text-xl">
         <li className="hover:text-sky-500 cursor-pointer">
@@ -47,4 +50,4 @@ export const Contact = () => {
       </ul>
     </>
   );
-};
+}

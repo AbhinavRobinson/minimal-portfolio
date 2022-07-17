@@ -1,14 +1,15 @@
 import { NextPage } from "next";
-import { Divider } from "../components/Divider";
 import Header from "../components/header";
-import { Contact } from "../components/Contact";
+import Contact from "../components/Contact";
+import Stack from "../components/Stack";
+import Projects from "../components/Projects";
 
 const Home: NextPage = () => {
   return (
     <main>
       <Header />
-      <Divider title="Projects" />
-      <Divider title="My Stack" />
+      <Projects />
+      <Stack />
       <Contact />
     </main>
   );
