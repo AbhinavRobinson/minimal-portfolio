@@ -29,7 +29,7 @@ a {
   }
 
   main {
-    @apply bg-white dark:bg-black;
+    @apply bg-zinc-100 dark:bg-zinc-900;
     @apply min-h-screen min-w-full;
     @apply pt-16 p-8;
     @apply flex flex-col items-center justify-start;
@@ -40,6 +40,13 @@ a {
     @apply max-w-3xl w-full;
     @apply rounded-xl;
     @apply p-4 sm:p-8;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  }
+
+  .dark {
+    section {
+      box-shadow: 6px 6px 8px #101014, -6px -6px 8px #1e1e23;
+    }
   }
 
   header {
