@@ -35,7 +35,7 @@ a {
     @apply flex flex-col items-center justify-start;
   }
 
-  section {
+  section, .neo {
     @apply bg-zinc-100 dark:bg-zinc-900;
     @apply max-w-3xl w-full;
     @apply rounded-xl;
@@ -44,7 +44,7 @@ a {
   }
 
   .dark {
-    section {
+    section, .neo {
       box-shadow: 6px 6px 8px #101014, -6px -6px 8px #1e1e23;
     }
   }

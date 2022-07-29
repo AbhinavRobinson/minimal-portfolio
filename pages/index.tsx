@@ -5,6 +5,7 @@ import Projects from "../components/Projects";
 import { NextSeo } from "next-seo";
 import Hero from "../components/Hero";
 import Head from "next/head";
+import OpenSource from "../components/OpenSource";
 
 const Home: NextPage = () => {
   return (
@@ -33,6 +34,7 @@ const Home: NextPage = () => {
       <Hero />
       <Projects />
       <Stack />
+      <OpenSource />
       <Contact />
     </main>
   );
