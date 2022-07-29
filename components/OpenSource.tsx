@@ -48,7 +48,7 @@ export default function OpenSource() {
       <Divider title="Open Source" />
       <div className="flex flex-col gap-4">
         {projects.map(project => (
-          <div className="flex flex-col gap-4 p-4 sm:p-8 border rounded-lg border-zinc-700 duration-200 hover:border-transparent hover:-translate-y-0.5 hover:-translate-x-px hover:neo" key={project.name}>
+          <div className="flex flex-col gap-4 p-4 sm:p-8 border rounded-xl border-zinc-700 duration-200 hover:border-transparent hover:-translate-y-0.5 hover:-translate-x-px hover:neo" key={project.name}>
             <div className="flex flex-row gap-2 justify-between">
               <div className="flex flex-col gap-1">
                 <h3 className="text-xl font-serif">{project.name}</h3>
