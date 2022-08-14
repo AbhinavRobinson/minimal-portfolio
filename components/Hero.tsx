@@ -12,14 +12,12 @@ import {
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
 const Hero = () => {
-  const [mounted, setMounted] = useState(false);
+  const [, setMounted] = useState(false);
   const { systemTheme, theme, setTheme } = useTheme();
 
   useEffect(() => {
     setMounted(true);
   }, []);
-
-  if (!mounted) return null;
 
   const currentTheme = theme === "system" ? systemTheme : theme;
 
@@ -39,6 +37,7 @@ const Hero = () => {
           height={100}
           objectFit="cover"
           className="rounded-full"
+          loading="lazy"
         />
         <div className="vs gap-1">
           <h1>Abhinav Robinson</h1>
