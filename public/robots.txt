@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.abhinav.one
+Host: https://abhinavrobinson.dev
 
 # Sitemaps
-Sitemap: https://www.abhinav.one/sitemap.xml
+Sitemap: https://abhinavrobinson.dev/sitemap.xml

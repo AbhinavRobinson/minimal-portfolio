@@ -10,7 +10,7 @@ export default function OpenSource() {
       description:
         "(This project) A minimal portfolio website built with NextJS, TailwindCSS and Typescript.",
       link: "https://github.com/abhinavrobinson/minimal-portfolio",
-      deployment: "https://abhinav.one",
+      deployment: "https://abhinavrobinson.dev",
       stack: ["NextJS", "TailwindCSS", "Typescript"],
     },
     {

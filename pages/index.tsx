@@ -20,11 +20,11 @@ const Home: NextPage = () => {
       <NextSeo
         title="Portfolio | Abhinav Robinson"
         description="This is the portfolio website of Abhinav Robinson. Abhinav is a senior software developer / engineer and technical lead , developer lead. React NextJS Typescript Javascript Mongo Express NestJS GraphQL Solidity Hardhat HTML CSS TailwindCSS SASS/SCSS Rust Golang Python AWS GCP Azure Git"
-        canonical="https://abhinav.one"
+        canonical="https://abhinavrobinson.dev"
         openGraph={{
           type: "website",
           locale: "en_IE",
-          url: "https:/abhinav.one",
+          url: "https://abhinavrobinson.dev",
           title: "Abhinav Robinson's Portfolio",
           description:
             "This is the portfolio website of Abhinav Robinson. Abhinav is a senior software developer / engineer and technical lead , developer lead. React NextJS Typescript Javascript Mongo Express NestJS GraphQL Solidity Hardhat HTML CSS TailwindCSS SASS/SCSS Rust Golang Python AWS GCP Azure Git",
