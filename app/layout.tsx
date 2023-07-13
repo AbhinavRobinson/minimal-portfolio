@@ -74,7 +74,7 @@ export const metadata: Metadata = {
 
 export default function Layout({ children }: PropsWithChildren<unknown>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>{children}</body>
     </html>
   );
