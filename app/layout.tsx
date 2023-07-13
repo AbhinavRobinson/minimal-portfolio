@@ -4,6 +4,8 @@ import "../styles/globals.scss";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { Metadata } from "next";
 
+import { Analytics } from "@vercel/analytics/react";
+
 export const metadata: Metadata = {
   title: "Abhinav Robinson's Portfolio",
   description:
@@ -76,6 +78,7 @@ export default function Layout({ children }: PropsWithChildren<unknown>) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body>{children}</body>
+      <Analytics />
     </html>
   );
 }
