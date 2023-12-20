@@ -6,9 +6,36 @@ import { Divider } from "./Divider";
 export default function OpenSource() {
   const projects = [
     {
+      name: "OxTender Research Labs",
+      description: "A collection of open source projects built by 0xTender.",
+      link: "https://github.com/0xTender",
+      stack: ["Solidity", "Typescript", "Rust", "C++", "Python"],
+    },
+    {
+      name: "Bhashini Software Development Kit",
+      description: "SDK for Bhashini, a indian language translation service.",
+      link: "https://github.com/0xTender/bhashini-sdk",
+      stack: ["Typescript", "Python"],
+    },
+    {
+      name: "Tauri Screen Recorder",
+      description:
+        "[25+ stars] A cross platform screen recorder built with Tauri (Rust) and Typescript.",
+      link: "https://github.com/abhinavrobinson/tauri-screen-recorder",
+      stack: ["Tauri", "Typescript", "Rust"],
+    },
+    {
+      name: "Next Range Slider",
+      description:
+        "[3000+ downloads] A minial range slider component built for NextJS and Typescript published on NPM.",
+      link: "https://github.com/abhinavrobinson/next-range-slider",
+      deployment: "https://www.npmjs.com/package/next-range-slider",
+      stack: ["NextJS", "React", "Typescript", "Javascript", "NPM"],
+    },
+    {
       name: "Minimal Portfolio",
       description:
-        "(This project) A minimal portfolio website built with NextJS, TailwindCSS and Typescript.",
+        "[This project] A minimal portfolio website built with NextJS, TailwindCSS and Typescript.",
       link: "https://github.com/abhinavrobinson/minimal-portfolio",
       deployment: "https://abhinavrobinson.dev",
       stack: ["NextJS", "TailwindCSS", "Typescript"],
@@ -27,14 +54,6 @@ export default function OpenSource() {
         "Yup",
         "React Hot Toast",
       ],
-    },
-    {
-      name: "Next Range Slider",
-      description:
-        "A minial range slider component built for NextJS and Typescript published on NPM.",
-      link: "https://github.com/abhinavrobinson/next-range-slider",
-      deployment: "https://www.npmjs.com/package/next-range-slider",
-      stack: ["NextJS", "React", "Typescript", "Javascript", "NPM"],
     },
   ];
 

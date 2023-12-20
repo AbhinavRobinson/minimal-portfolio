@@ -3,6 +3,11 @@ import { Divider } from "./Divider";
 const Projects = () => {
   const projects = [
     {
+      title: "Scope",
+      link: "https://scopeapp.io",
+      css: "text-indigo-500 border-indigo-500 hover:bg-indigo-500",
+    },
+    {
       title: "encryptus",
       link: "https://encryptus.io",
       css: "text-yellow-500 border-yellow-500 hover:bg-yellow-500",
