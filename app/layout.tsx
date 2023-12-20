@@ -2,7 +2,7 @@ import { PropsWithChildren } from "react";
 
 import "../styles/globals.scss";
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import { Metadata, Viewport } from "next";
+import { Metadata } from "next";
 
 import { Analytics } from "@vercel/analytics/react";
 
@@ -69,15 +69,10 @@ export const metadata: Metadata = {
     },
   },
   metadataBase: new URL("https://www.linkedin.com/in/abhinavrobinson/"),
-};
-
-export const viewport: Viewport = {
   themeColor: "#000000",
   colorScheme: "dark light",
-  initialScale: 1,
-  width: "device-width",
+  viewport: "width=device-width, initial-scale=1",
 };
-
 export default function Layout({ children }: PropsWithChildren<unknown>) {
   return (
     <html lang="en" suppressHydrationWarning>
