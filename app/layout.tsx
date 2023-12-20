@@ -2,7 +2,7 @@ import { PropsWithChildren } from "react";
 
 import "../styles/globals.scss";
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import { Metadata } from "next";
+import { Metadata, Viewport } from "next";
 
 import { Analytics } from "@vercel/analytics/react";
 
@@ -23,7 +23,6 @@ export const metadata: Metadata = {
   publisher: "Abhinav Robinson",
   robots: "index, follow",
   referrer: "no-referrer-when-downgrade",
-  themeColor: "#000000",
   authors: [
     {
       name: "Abhinav Robinson",
@@ -63,8 +62,6 @@ export const metadata: Metadata = {
     "Git",
   ],
   category: "Software",
-  colorScheme: "dark light",
-  viewport: "initial-scale=1.0, width=device-width",
   alternates: {
     canonical: "/",
     languages: {
@@ -72,6 +69,13 @@ export const metadata: Metadata = {
     },
   },
   metadataBase: new URL("https://www.linkedin.com/in/abhinavrobinson/"),
+};
+
+export const viewport: Viewport = {
+  themeColor: "#000000",
+  colorScheme: "dark light",
+  initialScale: 1,
+  width: "device-width",
 };
 
 export default function Layout({ children }: PropsWithChildren<unknown>) {
