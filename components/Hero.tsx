@@ -9,7 +9,11 @@ import {
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
+import {
+  faArrowRightToFile,
+  faMoon,
+  faSun,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Hero = () => {
   const [, setMounted] = useState(false);
@@ -45,6 +49,15 @@ const Hero = () => {
             Senior Software Developer, Open Source Contributer and Technical
             Lead
           </p>
+          <a
+            target="_blank"
+            rel="https://abhinavrobinson.dev"
+            href="https://utfs.io/f/169bccc8-6662-4ce1-adb3-5990d63d2c3b-yy92h0.pdf"
+            className="text-lg flex items-center gap-2 hover:text-rose-500"
+          >
+            Résumé
+            <FontAwesomeIcon icon={faArrowRightToFile} />
+          </a>
         </div>
         <ul className="vs items-end flex-grow gap-1 text-gray-500 select-none">
           <li className="hover:text-sky-500 cursor-pointer">
