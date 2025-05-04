@@ -2,27 +2,19 @@ import { Divider } from "./Divider";
 
 const Stack = () => {
   const stack = [
-    "React",
-    "NextJS",
     "Typescript",
-    "TailwindCSS",
-    "Javascript",
-    "GraphQL",
-    "Mongo",
-    "Express",
-    "NestJS",
-    "Solidity",
-    "Hardhat",
-    "HTML",
-    "CSS",
-    "SASS/SCSS",
-    "Rust",
-    "Golang",
     "Python",
+    "GoLang",
+    "Rust",
+    "PostgreSQL",
+    "MongoDB",
+    "GraphQL",
+    "Networking",
+    "Devops",
     "AWS",
-    "GCP",
-    "Azure",
-    "Git",
+    "Web Security",
+    "AI Integrations",
+    "Blockchain",
   ];
 
   return (

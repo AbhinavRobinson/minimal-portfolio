@@ -1,7 +1,4 @@
 import Image from "next/legacy/image";
-import { useEffect, useState } from "react";
-
-import { useTheme } from "next-themes";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -9,53 +6,31 @@ import {
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import {
-  faArrowRightToFile,
-  faMoon,
-  faSun,
-} from "@fortawesome/free-solid-svg-icons";
+import { faArrowRightToFile } from "@fortawesome/free-solid-svg-icons";
 
 const Hero = () => {
-  const [, setMounted] = useState(false);
-  const { systemTheme, theme, setTheme } = useTheme();
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  const currentTheme = theme === "system" ? systemTheme : theme;
-
   return (
     <section className="relative">
-      <div
-        className="absolute -top-8 right-0"
-        onClick={() => setTheme(currentTheme != "light" ? "light" : "dark")}
-      >
-        <FontAwesomeIcon icon={currentTheme == "light" ? faSun : faMoon} />{" "}
-      </div>
       <header>
         <Image
           src="/me.jpeg"
-          alt="Abhinav Robinson's Picture"
-          width={100}
-          height={100}
+          alt="Abhinav Robinson"
+          width={150}
+          height={150}
           objectFit="cover"
-          className="rounded-full"
+          className="rounded-lg"
           loading="lazy"
         />
         <div className="vs gap-1">
           <h1>Abhinav Robinson</h1>
-          <p>
-            Senior Software Developer, Open Source Contributer and Technical
-            Lead
-          </p>
+          <p>Senior Software Developer, Open Source Developer</p>
           <a
             target="_blank"
             rel="https://abhinavrobinson.dev"
             href="https://utfs.io/f/169bccc8-6662-4ce1-adb3-5990d63d2c3b-yy92h0.pdf"
             className="text-lg flex items-center gap-2 hover:text-rose-500"
           >
-            Résumé
+            Resume
             <FontAwesomeIcon icon={faArrowRightToFile} />
           </a>
         </div>

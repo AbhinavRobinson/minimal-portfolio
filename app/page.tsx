@@ -1,6 +1,5 @@
 "use client";
 
-import { ThemeProvider } from "next-themes";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import Contact from "../components/Contact";
 import Hero from "../components/Hero";
@@ -12,15 +11,13 @@ config.autoAddCss = false;
 
 function Page() {
   return (
-    <ThemeProvider enableSystem={true} attribute="class">
-      <main>
-        <Hero />
-        <Projects />
-        <Stack />
-        <OpenSource />
-        <Contact />
-      </main>
-    </ThemeProvider>
+    <main>
+      <Hero />
+      <Projects />
+      <Stack />
+      <OpenSource />
+      <Contact />
+    </main>
   );
 }
 

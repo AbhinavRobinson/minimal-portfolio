@@ -8,16 +8,16 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
-  title: "Abhinav Robinson's Portfolio",
+  title: "Abhinav Robinson",
   description:
-    "This is the portfolio website of Abhinav Robinson. Abhinav is a senior software developer / engineer and technical lead , developer lead. React NextJS Typescript Javascript Mongo Express NestJS GraphQL Solidity Hardhat HTML CSS TailwindCSS SASS/SCSS Rust Golang Python AWS GCP Azure Git",
+    "This is the portfolio website of Abhinav Robinson. Abhinav is a senior software developer / engineer and technical lead , developer lead.",
   openGraph: {
     type: "website",
     locale: "en_IE",
     url: "https://abhinavrobinson.dev",
-    title: "Abhinav Robinson's Portfolio",
+    title: "Abhinav Robinson",
     description:
-      "This is the portfolio website of Abhinav Robinson. Abhinav is a senior software developer / engineer and technical lead , developer lead. React NextJS Typescript Javascript Mongo Express NestJS GraphQL Solidity Hardhat HTML CSS TailwindCSS SASS/SCSS Rust Golang Python AWS GCP Azure Git",
+      "This is the portfolio website of Abhinav Robinson. Abhinav is a senior software developer / engineer and technical lead , developer lead.",
     siteName: "Portfolio | Abhinav Robinson",
   },
   applicationName: "https://abhinavrobinson.dev",
@@ -40,27 +40,23 @@ export const metadata: Metadata = {
     "Engineer",
     "Technical",
     "Lead",
-    "React",
-    "NextJS",
     "Typescript",
     "Javascript",
-    "Mongo",
     "Express",
     "NestJS",
     "GraphQL",
-    "Solidity",
-    "Hardhat",
     "HTML",
     "CSS",
     "TailwindCSS",
-    "SASS/SCSS",
     "Rust",
     "Golang",
     "Python",
-    "AWS",
-    "GCP",
-    "Azure",
-    "Git",
+    "Django",
+    "Flask",
+    "GraphQL",
+    "Frontend",
+    "Backend",
+    "Full Stack",
   ],
   category: "Software",
   alternates: {
@@ -71,7 +67,7 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://www.linkedin.com/in/abhinavrobinson/"),
   themeColor: "#000000",
-  colorScheme: "dark light",
+  colorScheme: "light",
   viewport: "width=device-width, initial-scale=1",
 };
 export default function Layout({ children }: PropsWithChildren<unknown>) {

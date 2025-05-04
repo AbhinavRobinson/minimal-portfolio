@@ -8,38 +8,13 @@ const Projects = () => {
       css: "text-indigo-500 border-indigo-500 hover:bg-indigo-500",
     },
     {
-      title: "encryptus",
-      link: "https://encryptus.io",
-      css: "text-yellow-500 border-yellow-500 hover:bg-yellow-500",
+      title: "Nonceblox",
+      link: "https://nonceblox.com",
+      css: "text-orange-500 border-orange-500 hover:bg-orange-500",
     },
     {
-      title: "UNXD",
-      link: "https://unxd.com",
-      css: "text-slate-500 border-slate-500 hover:bg-slate-500",
-    },
-    {
-      title: "mintable",
-      link: "https://mintable.com",
-      css: "text-red-500 border-red-500 hover:bg-red-500",
-    },
-    {
-      title: "polygon",
-      link: "https://polygon.technology",
-      css: "text-violet-500 border-violet-500 hover:bg-violet-500",
-    },
-    {
-      title: "vanilla",
-      link: "https://vanilla.network",
-      css: `text-amber-500 border-amber-500 hover:bg-amber-500`,
-    },
-    {
-      title: "myosin",
-      link: "https://myosin.xyz",
-      css: "text-sky-500 border-sky-500 hover:bg-sky-500",
-    },
-    {
-      title: "biconomy",
-      link: "https://www.biconomy.com",
+      title: "Atom",
+      link: "https://theatom.app",
       css: "text-fuchsia-500 border-fuchsia-500 hover:bg-fuchsia-500",
     },
   ];
