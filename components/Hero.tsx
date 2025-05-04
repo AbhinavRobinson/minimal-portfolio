@@ -27,7 +27,7 @@ const Hero = () => {
           <a
             target="_blank"
             rel="https://abhinavrobinson.dev"
-            href="https://utfs.io/f/169bccc8-6662-4ce1-adb3-5990d63d2c3b-yy92h0.pdf"
+            href="https://hh092ag1w4.ufs.sh/f/mmNdfblclFSXexkwZ6UUuIgSiBZk7cvpa423wofbHTdxAytq"
             className="text-lg flex items-center gap-2 hover:text-rose-500"
           >
             Resume
