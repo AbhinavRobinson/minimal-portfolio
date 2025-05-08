@@ -21,7 +21,7 @@ const Projects = () => {
 
   return (
     <div className="max-w-3xl w-full">
-      <Divider title="Projects" />
+      <Divider title="Work Experience" />
       <ul className="flex flex-row flex-wrap items-start justify-start gap-3 select-none">
         {projects.map((v) => (
           <li
