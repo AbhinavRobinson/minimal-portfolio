@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://www.abhinavrobinson.dev
-
-# Sitemaps
-Sitemap: https://www.abhinavrobinson.dev/sitemap.xml
